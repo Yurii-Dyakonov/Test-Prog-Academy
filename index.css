@@ -1,0 +1,56 @@
+html {
+  font-size: 10px;
+}
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: burlywood;
+  color: white;
+}
+
+td,
+th {
+  padding: 1em;
+  text-align: center;
+  border: 1px solid grey;
+  font-size: 1.9em;
+  text-transform: uppercase;
+}
+
+.center-table-text {
+  text-align: center;
+}
+
+.bitcoin-price {
+  margin-left: 9em;
+}
+
+.usd-quant {
+  margin-left: 11em;
+}
+
+.total-amount {
+  display: block;
+  color: black;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.view-format {
+  font-size: 1.2em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

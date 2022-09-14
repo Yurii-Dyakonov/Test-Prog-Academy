@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h2>TASK from Prog Academy</h2>
+    </div>
+    <table>
+      <tr>
+        <th>Bitcoin exchange ratio in $</th>
+        <th>Insert your $</th>
+        <th>You will receive <span id="bc_amout"></span></th>
+      </tr>
+      <tr>
+        <th class="bitcoin-price">
+          <input
+            class="view-format"
+            id="bc_ratio"
+            type="number"
+            placeholder="Bitcoin ratio..."
+          />
+        </th>
+        <th class="usd-quant">
+          <input
+            class="view-format"
+            id="usd_input"
+            type="number"
+            placeholder="$ quantity...?"
+          />
+        </th>
+        <th class="bit-quant">
+          <span class="total-amount view-format" id="total_amount" type="text">
+            0</span
+          >
+        </th>
+      </tr>
+    </table>
+    <script src="./cross.js"></script>
+  </body>
+</html>
